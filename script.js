@@ -60,4 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+function scrollToProjects() {
+    document.getElementById('project').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  }  
   
